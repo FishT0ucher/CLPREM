@@ -1,26 +1,4 @@
-"""Reimplement TimeGAN-pytorch Codebase.
 
-Reference: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar,
-"Time-series Generative Adversarial Networks,"
-Neural Information Processing Systems (NeurIPS), 2019.
-
-Paper link: https://papers.nips.cc/paper/8789-time-series-generative-adversarial-networks
-
-Last updated Date: October 18th 2021
-Code author: Zhiwei Zhang (bitzzw@gmail.com)
-
------------------------------
-
-data.py
-
-(0) MinMaxScaler: Min Max normalizer
-(1) sine_data_generation: Generate sine dataset
-(2) real_data_loading: Load and preprocess real data
-  - stock_data: https://finance.yahoo.com/quote/GOOG/history?p=GOOG
-  - energy_data: http://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction
-(3) load_data: download or generate data
-(4): batch_generator: mini-batch generator
-"""
 
 import numpy as np
 from os.path import dirname, abspath
